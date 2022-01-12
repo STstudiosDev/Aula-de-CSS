@@ -1,0 +1,184 @@
+/* Página inteira */
+
+body{
+    margin: 2rem;
+    padding: 2em;
+    background-color: rgb(245, 212, 169);
+}
+/* Fim Página inteira */
+
+/* Fundo */
+
+.start{
+    background-color: brown;
+    padding: 40px 100px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+/* Fim Fundo */
+
+/* Copy */
+
+.copy{
+    color: rgb(0, 248, 95);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* Fim Copy */
+
+
+.text{
+    font-size: 43px;
+    color: white;
+    text-align: center;
+
+}
+
+/* Imagem */
+
+img{
+    margin: 10px;
+    display: flex;
+    width: 28rem;
+}
+/* Fim Imagem */
+
+/* Letra escrito "Codigo" em verde */
+
+.codigo{
+    font-size: 30px;
+    color: rgb(0, 226, 0);
+    font-family: sans-serif;
+}
+/* Fim Letra escrito "Codigo" em verde */
+
+/* Botão */
+
+button{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color:green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color:rgb(0, 189, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    -webkit-transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    -moz-transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    -ms-transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    -o-transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+/* Fim Botão */
+
+/* Fundo do código */
+
+.open{
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 10px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* Fim Fundo do código */
+
+/* Letras */
+
+span2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(0, 50, 231);
+}
+
+span{
+    font-family: sans-serif;
+    font-size: 34px;
+    color: white;
+}
+
+.p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(133, 9, 122);
+    padding: 5px;
+    width: 40%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 5px 20px gold;
+}
+
+/* Fim Letras */
+
+/* Imagens efeitos */
+
+.borda{
+    border: 2px solid blue;
+}
+
+.borda2{
+    border: 2px solid blue;
+    box-shadow: 0px 0px 15px gold;
+}
+
+.borda3{
+    border: 2px solid blue;
+}
+.borda3:hover{
+    border: 2px solid rgb(0, 136, 248);
+    box-shadow: 0px 0px 15px gold;
+    transition: border 0.3s, box-shadow 0.3s;
+    -webkit-transition: border 0.3s, box-shadow 0.3s;
+    -moz-transition: border 0.3s, box-shadow 0.3s;
+    -ms-transition: border 0.3s, box-shadow 0.3s;
+    -o-transition: border 0.3s, box-shadow 0.3s;
+}
+
+.borda4{
+    border: 2px solid blue;
+}
+.borda4:hover{
+    border: 2px solid rgb(0, 136, 248);
+    box-shadow: 0px 0px 15px gold;
+    border-radius: 15px;
+    transition: border 0.3s, box-shadow 0.3s, border-radius 0.3s;
+    -webkit-transition: border 0.3s, box-shadow 0.3s, border-radius 0.3s;
+    -moz-transition: border 0.3s, box-shadow 0.3s, border-radius 0.3s;
+    -ms-transition: border 0.3s, box-shadow 0.3s, border-radius 0.3s;
+    -o-transition: border 0.3s, box-shadow 0.3s, border-radius 0.3s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* Fim Imagens efeitos */
